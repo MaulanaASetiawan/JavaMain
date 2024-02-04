@@ -327,4 +327,26 @@ public class App {
         }
         System.out.println();
     }
+
+    // public static void print(){
+    //     String text = "Loading";
+    //     String Alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    //     for (int i = 0; i < text.length(); i++) {
+    //         for (int j = 0; j < Alphabet.length(); j++) {
+    //             String prefix = Alphabet.substring(j, j + 1);
+    //             String cur = prefix + text.substring(0, i + 1);
+                
+    //             if (cur.equals(text)) {
+    //                 break;
+    //             }
+    //             clear();
+    //             System.out.println(cur);
+    //             try {
+    //                 Thread.sleep(50);
+    //             } catch (InterruptedException e) {
+    //                 e.printStackTrace();
+    //             }
+    //         }
+    //     }
+    // }
 }
